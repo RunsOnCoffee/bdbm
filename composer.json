@@ -1,0 +1,23 @@
+{
+	"name": "runs-on-coffee/bdbm",
+	"description": "A Bluetooth device battery monitor",
+
+	"config": {
+        "vendor-dir": "lib/vendor"
+    },
+	
+    "repositories": {
+      "Ristretto": {
+        "type": "path",
+        "url": "/Users/ncosta/Documents/Development/Code Library/PHP/Ristretto",
+        "options": {
+          "symlink": false
+        }
+      }
+    },
+
+    "require": {
+        "runs-on-coffee/ristretto": "@dev",
+		"docopt/docopt": "^1.0"
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"main": "src/main.php",
+	"output": "build/bdbm",
+
+	"directories": ["lib","src"],
+	"finder": [
+		{
+			"name": "*.php",
+			"exclude": ["test", "tests"],
+			"in": "lib"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+2020-04-22 05:38:04.7569 [error]: error test
+2020-04-22 05:38:04.7571 [warn]: warning test awesome
+2020-04-22 05:38:04.7576 [info]: info test
+2020-04-22 05:38:04.7577 [info]: the time is 2020-04-22 05:38:04
+2020-04-22 05:38:04.7578 [info]: my exception: Exception Object
+(
+    [message:protected] => 
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /Users/ncosta/Documents/Development/Code Library/PHP/Ristretto/tests/RSLog.test.php
+    [line:protected] => 17
+    [trace:Exception:private] => Array
+        (
+        )
+
+    [previous:Exception:private] => 
+)
+
+2020-04-22 05:38:04.7580 [info]: Array ( [TERM_PROGRAM] => Apple_Terminal, [TERM] => xterm-256color, [SHELL] => /bin/bash, [TMPDIR] => /var/folders/26/k8blbj116693k9cw311dl1l80000gn/T/, [TESSDATA_PREFIX] => /opt/local/share/, [TERM_PROGRAM_VERSION] => 433, [OLDPWD] => /Users/ncosta/Documents/Development/Code Library/PHP/Ristretto, [TERM_SESSION_ID] => 48FE0B16-ED4E-4469-A3F5-F1A0E42F427B, [USER] => ncosta, [SSH_AUTH_SOCK] => /private/tmp/com.apple.launchd.yKOGLlF3La/Listeners, [PATH] => /opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/bin:/usr/local/mysql/bin:/Users/ncosta/bin, [LaunchInstanceID] => C6046C5E-801B-4BE5-955A-22B80DB4BEBA, [PWD] => /Users/ncosta/Documents/Development/Code Library/PHP/Ristretto/tests, [LANG] => en_US.UTF-8, [XPC_FLAGS] => 0x0, [XPC_SERVICE_NAME] => 0, [HOME] => /Users/ncosta, [SHLVL] => 1, [LOGNAME] => ncosta, [SECURITYSESSIONID] => 186aa, [_] => ./RSLog.test.php, [__CF_USER_TEXT_ENCODING] => 0x1F5:0x0:0x0 )
+2020-04-22 05:38:04.7581 [info]: Ristretto\RSLog Object
+(
+    [log:protected] => test.log
+    [logLevel:protected] => 3
+    [logType:protected] => 3
+)
+

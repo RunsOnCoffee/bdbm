@@ -1,0 +1,81 @@
+[
+    {
+        "name": "docopt/docopt",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/docopt/docopt.php.git",
+            "reference": "bf3683a16e09fa1665e493eb4d5a29469e132a4f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/docopt/docopt.php/zipball/bf3683a16e09fa1665e493eb4d5a29469e132a4f",
+            "reference": "bf3683a16e09fa1665e493eb4d5a29469e132a4f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2019-12-03T02:48:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/docopt.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Blake Williams",
+                "email": "code@shabbyrobe.org",
+                "homepage": "http://docopt.org/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Port of Python's docopt for PHP >=5.3",
+        "homepage": "http://github.com/docopt/docopt.php",
+        "keywords": [
+            "cli",
+            "docs"
+        ]
+    },
+    {
+        "name": "runs-on-coffee/ristretto",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "/Users/ncosta/Documents/Development/Code Library/PHP/Ristretto",
+            "reference": "d43298b62683b1c20bfbf13617dd50b36b800c1a"
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ristretto\\": "src/"
+            }
+        },
+        "authors": [
+            {
+                "name": "Nicholas Costa",
+                "email": "espresso@runsoncoffee.net"
+            }
+        ],
+        "description": "package under development",
+        "transport-options": {
+            "symlink": false,
+            "relative": false
+        }
+    }
+]
