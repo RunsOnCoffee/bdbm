@@ -30,7 +30,7 @@ DOC;
 
 try
 {
-	$options = Docopt::handle($doc, array('version'=>'Bluetooth Device Battery Monitor 0.2'));
+	$options = Docopt::handle($doc, array('version'=>'Bluetooth Device Battery Monitor 0.3'));
 
 	$devices = getBatteryStatus();
 	if( empty( $devices ) ) exit( "No Bluetooth devices found.\n" );
@@ -67,7 +67,7 @@ function getBatteryStatus()
 	$result = ob_get_contents();
 	ob_end_clean();
 
-	if( preg_match_all( '/"(Product|BatteryPercent)" = ([0-9]{1,2}|".*?")/msi', $result, $match ) == 0)
+	if( preg_match_all( '/"(Product|BatteryPercent)" = ([0-9]{1,3}|".*?")/msi', $result, $match ) == 0)
 	{
 		return array();
 	}
